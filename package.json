@@ -1,0 +1,35 @@
+{
+  "name": "enterprise-react-table-virtualizer",
+  "version": "1.0.4",
+  "description": "Enterprise-grade virtualization for React tables.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enterprisecorp/enterprise-react-table-virtualizer.git"
+  },
+  "keywords": [
+    "react",
+    "table",
+    "virtualization",
+    "datagrid",
+    "performance"
+  ],
+  "author": "Enterprise Corp",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/react": "^18.0.0",
+    "jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  }
+}
